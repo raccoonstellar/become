@@ -1,0 +1,160 @@
+
+Administrator@202-7 MINGW64 /
+$ git config --global user.name "raccoonstellar"
+
+Administrator@202-7 MINGW64 /
+$ git config --global user.email "raccoonstellar@gmail.com"
+
+Administrator@202-7 MINGW64 /
+$ cd c:\git_upload
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ ls
+abc.txt
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add abc.txt
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add abc.txt
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add abc.txt
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add abc.txt
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add abc.txt
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ ls
+abc.txt
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ gti add abc.txt
+bash: gti: command not found
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git add abc.txt
+fatal: Not a git repository (or any of the parent directories): .git
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ ^C
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ ^C
+
+Administrator@202-7 MINGW64 /c/git_upload
+$ git init
+Initialized empty Git repository in C:/git_upload/.git/
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$ git add abc.txt
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$ git comit -m "front12 ver-1"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$ git commit -m"fornt12.ver-1"
+[master (root-commit) cce5c84] fornt12.ver-1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 abc.txt
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$ git remote add origin https://github.com/raccoonstellar/become.git
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$ git remote -v
+origin  https://github.com/raccoonstellar/become.git (fetch)
+origin  https://github.com/raccoonstellar/become.git (push)
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 210 bytes | 210.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/raccoonstellar/become.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Administrator@202-7 MINGW64 /c/git_upload (master)
+$
